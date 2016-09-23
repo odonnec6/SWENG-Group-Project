@@ -1,0 +1,151 @@
+ CSS Document */
+@media screen {
+	html {margin:0;padding:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 100%;/* Set IE type */}
+	body {margin:0 0 0 0;padding:0 0 36px 0;background:#e1e6ea;font-size:0.75em;text-align:center;line-height:1.5;color:#333;}
+	body * {font-size:100%;}/* Explicit specification for old versions of IE hack */ 
+	
+	/*Basic HTML styles*/
+	p,blockquote,ul,ol,dl,table,hr,form,fieldset {margin:0 0 1.5em 0;padding:0;}
+	.kwn {margin-bottom:0;}
+	a {color:#116caf;}
+	a:hover, a:focus {text-decoration:none;}
+	abbr {text-decoration:none;border:0;}
+	a abbr {text-decoration:underline;border-width:1px;}
+	a:hover abbr {text-decoration:none;border-width:0;}
+	sup,sub {font-size:0.8em;line-height:normal;}
+	sup {vertical-align:top;}
+	hr {border:0;border-top:1px solid #ccc;}
+	code, pre {line-height:1.34;font-family:"Courier New", Courier, monospace;}
+	
+	ul, ol {padding-left:2.5em;}
+	ul li, ol li {padding-left:0.6em;margin:0.6em 0;}
+	li p {margin-top:0.6em;}
+	ol ol {list-style-type:lower-alpha;}
+	ol ol, ol ul, ul ol, ul ul {margin-bottom:0;padding-left:3em;}
+	dl dl {margin-top:0;}
+	dl dt, dl dd {margin-top:0.6em;}
+	
+	h1, h2, h3, h4, h5, h6 {font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;margin:0;padding:0;}
+	h1, h2, h3, h4, h5, h6 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-weight:normal;margin:0;padding:0;}
+	h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {color:#047fb0;}
+	h1 {font-size:1.9em;line-height:1.34;}
+	h2 {font-size:1.7em;line-height:1.34;}
+	h3 {font-size:1.4em;line-height:1.34;}
+	h4 {font-size:1.2em;line-height:1.34;}
+	h5 {font-size:1.1em;line-height:1.34;}
+	h6 {font-size:1em;line-height:1.34;}
+	
+	img {border:1px solid #ddd;padding:3px;}
+	img.no-border {border:0;padding:0;}
+	
+	blockquote {margin-left:5%;margin-right:5%;}
+	blockquote p {margin-bottom:0;margin-top:10px;}
+	.blockquote-reference {text-align:right;margin-left:5%;margin-right:5%;font-style:italic;}
+	
+	form label,
+	form input[type=submit],
+	form input[type=reset],
+	form button {cursor:pointer;}
+	form input,
+	form textarea,
+	form select {font-size:1em;font-family:Verdana, Arial, Helvetica, sans-serif;}
+	form .mandatory {color:#CC0000;}
+	form .form-data-protection-statement {font-size:0.9em;line-height:1.8;}
+	
+	/* ========================================== */
+	
+	table {text-align:left;border-collapse:collapse;vertical-align:baseline;}
+	table, th, td {border-width:1px;border-style:solid;border-color:#ddd;}
+	th, td {padding:6px 8px 7px 8px;vertical-align:baseline;}
+	th {font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;font-size:1.2em;text-align:left;}
+	
+	/* ========================================== */
+	
+	/*Class based styles*/
+	ol.lowercase-roman {list-style-type:lower-roman;}
+	ol.uppercase-roman {list-style-type:upper-roman;}
+	ol.lowercase-alpha {list-style-type:lower-alpha;}
+	ol.uppercase-alpha {list-style-type:upper-alpha;}
+	img.fl {float:left;margin-left:0em;margin-right:1em;}
+	img.fr {float:right;margin-left:1em;margin-right:0em;}
+	.float-left,
+	.wrap-text-right {float:left;margin-left:0em;margin-right:1em;}
+	.float-right,
+	.wrap-text-left {float:right;margin-left:1em;margin-right:0em;}
+	.accelerator-key {text-decoration:underline;}
+	.cloak {position:absolute;left:-9999px;}
+	.cb, .clear {clear:both;}
+	.clear-right {clear:right;}
+	.clear-left {clear:left;}
+	.clearfix,
+	.fc,
+	.float-container {display:inline-block;}
+	.clearfix,
+	.fc,
+	.float-container {display:block;}
+	.clearfix:after,
+	.fc:after,
+	.float-container:after {content:" ";display:block;height:0;font-size:0;clear:both;visibility:hidden;}
+	
+	/*/ Text align /*/
+	.text-align-right {text-align:right;}
+	.text-align-left {text-align:left;}
+	.text-align-center {text-align:center;}
+	
+	/*Site menu*/
+	.n .site-menu li ul {display:none;}
+	.n .site-menu li.open ul {display:block;}
+	.n .site-menu li.open ul li ul {display:none;}
+	.n .site-menu li.open ul li.open ul {display:block;}
+	.n .site-menu li.open ul li.open ul li ul {display:none;}
+	.n .site-menu li.open ul li.open ul li.open ul {display:block;}
+	.n .site-menu li.open ul li.open ul li.open ul li ul {display:none;}
+	.n .site-menu li.open ul li.open ul li.open ul li.open ul {display:block;}
+	.n .site-menu li.open ul li.open ul li.open ul li.open ul li ul {display:none;}
+	.n .site-menu li.open ul li.open ul li.open ul li.open ul li.open ul {display:block;}
+	
+	/* ========================================== */
+	
+	.wrap {text-align:left;margin:0 auto;padding:0px;width:auto;max-width:950px;background:#fff;}
+	
+	/* Legacy TCD Header and Footer CSS: New TCD Header and Footer CSS now in /tms/styles/tcd-header-footer.css */
+	.core-header {float:left;width:100%;height:auto;background:#fff;border-bottom:3px solid #0e6bae;}
+	.core-header h1 {float:left;display:inline;margin:12px 0 0 12px;padding:0px;}
+	.core-header h1 a {display:block;position:relative;width:332px;height:33px;overflow:hidden;}
+	.core-header h1 a span {display:block;position:absolute;left:0;top:0;width:332px;height:33px;background:transparent url(img/tcd-logo.gif) top left no-repeat;cursor:pointer;}
+	.lang-ga .core-header h1 a span {background:transparent url(img/tcd-logo.ga.gif) top left no-repeat;}
+	html[lang=ga] .core-header h1 a span {background:transparent url(img/tcd-logo.ga.gif) top left no-repeat;}
+	
+	.core-search {float:right;width:180px;height:32px;color:#688999;text-align:left;margin:15px 6px 0px 0;padding:0;}
+	.lang-ga .core-search {width:195px;}
+	html[lang=ga] .core-search {width:195px;}
+	.core-search fieldset {padding:0;margin:0;border:0;}
+	.core-search fieldset legend {display:none;}
+	.core-search a {color:#688999;font-size:0.75em;line-height:2.2;margin:0px;padding:0px;text-decoration:none;}
+	.core-search a:hover {text-decoration:underline;}
+	.core-search input#search {font-family:Verdana,Arial,Helvetica,sans-serif;font-size:0.9em;background:#f1f4f9;border:1px solid #b1bdc9;color:#1c598f;margin-top:0px;padding:3px 3px 4px 8px;vertical-align:top;float:left;width:140px;}
+	.core-search input.submit {float:left;}
+	
+	.core-tabs {clear:both;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0.9em;line-height:normal;margin-right:6px;border:0px solid #993300;}
+	.core-tabs ul {float:right;display:inline;list-style-type:none;margin:0;margin-left:5px;padding:0;}
+	.core-tabs li {display:inline;margin:0;padding:0;}
+	.core-tabs a {float:left;background:url(img/tab-l.gif) no-repeat left top;margin:0;margin-right:0px;padding:0 0 0 9px;text-decoration:none;}
+	.core-tabs a span {cursor:pointer;float:left;background:url(img/tab-r.gif) no-repeat right top;padding:8px 8px 6px 0px;color:#0a4e83;line-height:normal;}
+	.core-tabs a:hover span,
+	.core-tabs a:focus span {color:#fff;}
+	.core-tabs #selected a {background-position:0 -83px;}
+	.core-tabs #selected a span {background-position:100% -83px;color:#fff;}
+	.core-tabs a:hover,
+	.core-tabs a:focus {background-position:0% -83px;}
+	.core-tabs a:hover span,
+	.core-tabs a:focus span {background-position:100% -83px;}
+	.core-tabs a.core-tab {background:url(img/tab-l-sans.gif) no-repeat left top;}
+	.core-tabs a.core-tab:hover,
+	.core-tabs a.core-tab:focus {background-position:0% -83px;}
+	
+	.core-footer {clear:both;height:18px;line-height:1.8;background:#e1e7ea url(img/core-footer-bg.gif) repeat-x right top;color:#1a375d;font-size:0.88em;padding:0.5em 0 54px 0;}
+	.core-footer address {clear:left;float:left;text-align:left;font-style:normal;margin:0;padding:0;}
+	.core-footer ul {float:right;list-style-type:none;margin:0;padding:0;line-height:1.8;}
+	.core-footer ul li {display:inline;margin:0 0 0 6px;padding-left:0;background:none;}
+	.core-footer ul li a {color:#1a375d;}
+}

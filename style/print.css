@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document - Print Styles */
+html {float:left;width:100%;}
+body {float:left;width:100%;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0.8em;line-height:1.5;}
+.tcd-header, .tcd-footer, .h, .s, .sh, .n, .breadcrumb, .sidebar, .core-header, .core-footer, .addthis_toolbox {display:none;}
+.c *,
+.c *[style] {position:static!important;}
+h1, h2, h3, h4, h5, h6 {display:none;font-weight:normal;margin:0;}
+h1 {font-size:1.64em;line-height:1.34;border-bottom:2px solid #ccc;margin-bottom:0.25em;}
+h2 {font-size:1.4em;line-height:1.34;}
+h3 {font-size:1.24em;line-height:1.34;}
+h4 {font-size:1.16em;line-height:1.34;}
+h5 {font-size:1.08em;line-height:1.34;}
+h6 {font-size:1.0em;line-height:1.34;}
+
+p,blockquote,ul,ol,dl,table,hr,form,fieldset {margin:0 0 1.5em 0;padding:0;}
+
+#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {display:block;}
+a {color:#000;text-decoration:underline;}
+
+table {max-width:98%;border-collapse:collapse;border:0;border-top:#c0c0c0 solid 1px;border-left:#c0c0c0 solid 1px;line-height:normal;}
+th,td {padding:0.1em 0.2em;border:0;border-right:#c0c0c0 solid 1px;border-bottom:#c0c0c0 solid 1px;}
